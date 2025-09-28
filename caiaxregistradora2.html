@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAIXA REGISTRADORA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>CAIXA REGISTRADORA</h1>
+    </header>
+
+    <header2>
+	<h2>Lojas Tabajara </h2>
+    </header2>
+    <section>
+        <div>
+            <p>
+                Valor do produto R$: <br><input type="number" id="txtvalorproduto">
+                <button onclick="adicionarProduto()">Adicionar Produto</button>
+            </p>
+        </div>
+        <div>
+            <table id="tableprodutos" border="1">
+                <tr><td>Item</td>  <td>Valor</td></tr>
+           </table>
+        </div>
+        <div>
+            <p>
+                Total da Compra R$: <br><input type="number" id="txttotalcompra">
+            </p>
+            <p>
+                Dinheiro R$:<br><input type="number" id="txtdinheiro">
+                <button onclick="calcularTroco()">Calcular Troco</button>
+            </p>
+            <p>
+                Troco R$:<br><input type="text" id="txttroco">
+            </p>      
+        </div>
+    </section>
+    <footer>
+        Desenvolvido por Juliane <br>
+        Semelhante ao "TEMA 12: 3ª Lista de Exercícios JS
+12.5: Caixa Registradora (II)"
+    </footer>
+   
+</body>
+</html>
